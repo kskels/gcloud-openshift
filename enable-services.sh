@@ -15,5 +15,5 @@ GCP_API_SERVICES="compute.googleapis.com
 for service in $GCP_API_SERVICES
 do
   echo "Enabling API service: $service"
-  gcloud --verbosity="error" services enable $service
+  gcloud services enable $service
 done
