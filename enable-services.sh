@@ -10,7 +10,8 @@ GCP_API_SERVICES="compute.googleapis.com
   serviceusage.googleapis.com
   storage-api.googleapis.com
   storage-component.googleapis.com
-  networksecurity.googleapis.com"
+  networksecurity.googleapis.com
+  deploymentmanager.googleapis.com"
 
 for service in $GCP_API_SERVICES
 do
